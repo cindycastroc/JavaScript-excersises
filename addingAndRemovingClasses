@@ -34,5 +34,12 @@
             heading.classList.add('activeHeading');
         }
     }
+// heading.onclick = () => {
+//  if (heading.classList.contains('activeHeading')) {
+//    heading.className = 'nonActiveHeading';
+//  } else {
+//    heading.className = 'activeHeading';
+//  };
+//}
 </script>
 </html>
