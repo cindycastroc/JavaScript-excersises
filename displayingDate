@@ -7,12 +7,13 @@
 </head>
 <body>
     <div id="dateComponent"></div>
-    <button onclick="renderDate()">Click for Date</button>
+    <button id="dateBtn">Click for Date</button>
 </body>
 <script>
     const dateElement = document.getElementById('dateComponent');
-    renderDate = () => {
-        dateElement.innerHTML = Date();
-    }
+    const dateBtn = document.getElementById('dateBtn');
+        dateBtn.addEventListener('click', (event) => {
+            dateElement.innerHTML = Date();
+        })
 </script>
 </html>
